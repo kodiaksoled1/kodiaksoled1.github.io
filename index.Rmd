@@ -6,3 +6,12 @@ PhD student <br>
 Columbia University School of Nursing
 <br><img src="images/headshot.jpg" alt="kodiak" style="width:45%; float: right; border:5px solid"><br>
 
+#### About
+
+I earned my Bachelors of Arts in International/Intercultural Studies and Healing/Self-Sufficient Practices from [Pitzer College](https://www.pitzer.edu/) in 2012 and my Masters of Science in Nursing from [Johns Hopkins University](https://nursing.jhu.edu/academics/programs/pre-licensure/masters-entry/) in 2018. 
+
+I'm currently pursuing my PhD in LGBT Perinatal Health from [Columbia University](http://www.nursing.columbia.edu/academics/academic-programs/doctoral-programs/phd-program), with an expected graduation date of spring 2022.
+
+You can learn about me [here](about_me.html)
+
+<br>
