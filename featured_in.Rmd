@@ -1,3 +1,14 @@
 ---
 title: "Featured In"
 ---
+[Columbia Nursing Magazine's Issue on <br> _Improving Care for the LGBT Community_](http://www.nursing.columbia.edu/digging-gold)
+
+[Vignette on why I chose to be a nurse](https://www.youtube.com/watch?v=KPJtw5ZdbOc) <br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KPJtw5ZdbOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[What it means to be a nurse](https://www.youtube.com/watch?v=J60LFG8ejVs) <br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J60LFG8ejVs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[My work as the Maternity Maven](http://www.maternitymaven.com/) <br>
+<iframe src="https://player.vimeo.com/video/142592879?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://maternitymaven.com">Maternity Maven</a> from <a href="https://vimeo.com/xseeddesign">XSEED Design and Production</a>.</p> 
