@@ -62,3 +62,26 @@ instacart %>%
     yaxis = y_template
     )
 ```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Mean Hour of Day Products from the 'Fresh Vegetable' Aisle are Ordered Across the Week
+
+```{r}
+x_template =
+  list(title = "Day of Week")
+
+y_template =
+  list(title = "Mean Hour of Day")
+
+instacart %>%
+  filter(aisle == "fresh vegetables") %>%
+  group_by(product_name, day_of_week) %>%
+  summarize(mean_hour = mean(order_hour_of_day)) %>%
+  plot_ly(y = ~mean_hour, color = ~day_of_week, type = "violin", colors = "Set2")  %>%
+  layout(
+    xaxis = x_template,
+    yaxis = y_template
+    )
+```
