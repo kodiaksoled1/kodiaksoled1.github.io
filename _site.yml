@@ -19,7 +19,7 @@ navbar:
     - text: "Designs"
       menu:
       - text: "Infographic"
-        href: designs.html
+        href: infographics.html
       - text: "Posters"
         href: poster.html
   right:
