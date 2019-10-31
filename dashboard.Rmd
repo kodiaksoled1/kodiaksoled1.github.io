@@ -14,3 +14,28 @@ library(viridis)
 library(p8105.datasets)
 library(plotly)
 ```
+
+```{r}
+data("instacart")
+
+set.seed(1)
+
+data(instacart)
+
+instacart =
+  instacart %>% 
+  janitor::clean_names() %>%
+  mutate(product_name = str_to_lower(product_name)) %>%
+  select(aisle, order_dow, order_hour_of_day, product_name, aisle_id) %>%
+  mutate(
+    day_of_week = recode(order_dow,
+                         `1` = "monday", 
+                         `2` = "tuesday", 
+                         `3` = "wednesday", 
+                         `4` = "thursday", 
+                         `5` = "friday", 
+                         `6` = "saturday",
+                         `0` = "sunday"),
+    day_of_week = forcats::fct_relevel(day_of_week, c("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"))
+  )
+```
