@@ -85,3 +85,39 @@ instacart %>%
     yaxis = y_template
     )
 ```
+
+### Mean Hour of the Day the Seven Most Popular Vegetables are Ordered Across the Week
+
+```{r}
+popular_vegetables = 
+  instacart %>%
+  filter(aisle == "fresh vegetables") %>%
+  group_by(product_name) %>%
+  count() %>%
+  filter(n > 3000)
+
+x_template =
+  list(title = "Day of Week")
+
+y_template =
+  list(title = "Mean Hour of Day")
+
+instacart %>%
+  filter(
+    product_name == "asparagus" |
+      product_name == "organic cucumber" |
+      product_name == "organic garlic" |
+      product_name == "organic red onion" |
+      product_name == "organic yellow onion" |
+      product_name == "organic zuccchini" |
+      product_name == "yellow onions"
+      ) %>%
+  select(day_of_week, product_name, order_hour_of_day) %>%
+  group_by(product_name, day_of_week) %>%
+  summarize(mean_hour = mean(order_hour_of_day)) %>%
+  plot_ly(x = ~day_of_week, y = ~mean_hour, color  = ~product_name, type = 'scatter', mode = 'lines') %>%
+  layout(
+    xaxis = x_template,
+    yaxis = y_template
+    )
+```
