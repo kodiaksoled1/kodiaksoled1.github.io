@@ -1,3 +1,5 @@
 ---
 title: "Posters"
 ---
+<br><img src="images/smw_poster.jpeg" alt="perinatal_smw" style="width:100%"><br>
+_Presented at GLMA’s Annual Conference on LGBTQ Health (2019) and New York University’s Annual Health Disparities Symposium (2019)_
