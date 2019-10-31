@@ -39,3 +39,26 @@ instacart =
     day_of_week = forcats::fct_relevel(day_of_week, c("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"))
   )
 ```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Number of Products Sold in Aisles (>20,000) of Instacart
+
+```{r}
+x_template =
+  list(title = "Aisle Name")
+
+y_template =
+  list(title = "Number of Products Ordered")
+
+instacart %>%
+  count(aisle) %>%
+  filter(n > 20000) %>%
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar") %>%
+  layout(
+    xaxis = x_template,
+    yaxis = y_template
+    )
+```
