@@ -3,3 +3,22 @@ output_dir: "."
 navbar:
   title: "Home"
   href: index.html
+  left:
+    - text: "About"
+      menu:
+      - text: "About Me"
+        href: about_me.html
+      - text: "Featured In"
+        href: featured_in.html
+    - text: "Research"
+      href: Research.html
+    - text: "Dashboards"
+      menu:
+      - text: "Instacart"
+        href: dashboard.html
+    - text: "Designs"
+      menu:
+      - text: "Infographic"
+        href: designs.html
+      - text: "Posters"
+        href: poster.html
