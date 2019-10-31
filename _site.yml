@@ -22,3 +22,14 @@ navbar:
         href: designs.html
       - text: "Posters"
         href: poster.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:kodiak.soled@columbia.edu
+    - icon: fa-link fa-lg
+      href: ./cv/Soled_Biosketch.pdf
+    - icon: fa-github fa-lg
+      href: https://github.com/kodiaksoled1
+    - icon: ion-social-twitter fa-lg
+      href: https://twitter.com/kodiaksoled
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/kodiaksoled/
