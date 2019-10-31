@@ -33,3 +33,9 @@ navbar:
       href: https://twitter.com/kodiaksoled
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/kodiaksoled/
+output:
+  html_document:
+    theme: lumen
+    include:
+      after_body: footer.html
+    css: styles.css
