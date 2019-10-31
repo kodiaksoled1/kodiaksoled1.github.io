@@ -2,3 +2,7 @@
 title: "Kodiak Soled"
 ---
 
+PhD student <br>
+Columbia University School of Nursing
+<br><img src="images/headshot.jpg" alt="kodiak" style="width:45%; float: right; border:5px solid"><br>
+
